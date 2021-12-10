@@ -1,0 +1,33 @@
+{
+    "name": "kenprogrammer/darajasdk",
+    "description": "Unofficial PHP SDK for Safaricom Daraja API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Daraja\\SDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kennedy Mwenda",
+            "email": "kenprogrammer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
